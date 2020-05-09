@@ -1,3 +1,4 @@
+mkdir -p ./done
 [[ -f ./done/$0 ]] && echo already done && exit
 sudo apt install gcc  || { echo fail gcc; exit; }
 sudo apt install make    || { echo fail install make; exit; }
