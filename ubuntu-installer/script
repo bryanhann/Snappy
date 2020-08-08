@@ -1,0 +1,17 @@
+main  apt-get -y update
+main  apt     -y full-upgrade
+main  apt     -y autoremove
+main  apt-get -y upgrade
+main  apt-get -y check
+main  apt     -y install python-pip
+main  apt     -y install python3-pip
+main  apt-get -y install python3-venv
+main  apt     -y install zsh
+
+git clone https://github.com/bryanhann/bh0base ~/bh0base
+pushd ~/bh0base
+./install.sh
+popd
+
+
+
