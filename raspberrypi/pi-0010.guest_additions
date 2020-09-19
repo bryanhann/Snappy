@@ -1,0 +1,3 @@
+echo insert guest additions cd. Press enter when ready.
+read x
+sudo bash /media/cdrom0/VBoxLinuxAdditions.run
